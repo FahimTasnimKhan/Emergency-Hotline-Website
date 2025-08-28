@@ -38,3 +38,20 @@
 .btn-color {
   background-color: rgba(9, 252, 62, 0.1);
 }
+
+.banner {
+  height: 239px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  padding: 12px 60px 12px 60px;
+  background: linear-gradient(
+    90deg,
+    rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
+  text-align: center;
+}
