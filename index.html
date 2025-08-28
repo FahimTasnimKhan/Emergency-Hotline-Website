@@ -3,7 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind + Daisy UI  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./CSS/tailwind.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts Ends -->
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="hind-madurai-regular">
+    <header>
+      <nav
+        class="flex justify-between items-center max-w-[1980px] h-[100px] pt-[24px] pr-[60px] pb-[24px] pl-[60px]"
+      >
+        <div class="flex gap-2.5 items-center">
+          <img src="./assets/logo.png" alt="" class="w-[50px] h-[50px]" />
+          <h1 class="font-bold text-xl text-[#006747]">
+            Emergency <br />
+            Service
+          </h1>
+        </div>
+        <div class="flex gap-5">
+          <div
+            class="btn-color flex justify-center items-center p-3 gap-2.5 rounded-[50px] w-[123px] h-[52px]"
+          >
+            <span class="inter-normal">0</span>
+            <img src="./assets/heart.png" alt="" class="w-[30px] h-[30px]" />
+          </div>
+          <div
+            class="btn-color flex justify-center items-center p-3 gap-2.5 rounded-[50px] w-[123px] h-[52px]"
+          >
+            <span class="inter-normal">100</span>
+            <img src="./assets/coin.png" alt="" class="w-[30px] h-[30px]" />
+          </div>
+          <div
+            class="p-3 gap-2.5 rounded-[50px] w-[123px] h-[52px] flex items-center bg-[#00a63e] justify-center font-[600] text-[16px] text-[#ffffff]"
+          >
+            <p><span>0 </span>Copy</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./JS/main.js"></script>
+  </body>
 </html>
