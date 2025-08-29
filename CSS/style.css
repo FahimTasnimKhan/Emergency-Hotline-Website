@@ -55,3 +55,38 @@
   );
   text-align: center;
 }
+
+.highlight {
+  background: var(--Gray-Light, rgba(242, 242, 242, 1));
+}
+
+.bg-main {
+  background-color: rgba(245, 255, 246, 1);
+}
+
+.card {
+  border-radius: 12px;
+  /* shadow2 */
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  background: var(--White, rgba(255, 255, 255, 1));
+}
+
+.item-1 {
+  flex: 2;
+}
+
+.item-2 {
+  flex: 1;
+}
+
+.bt-copy {
+  box-sizing: border-box;
+  border: 1px solid var(--Stroke, rgba(212, 214, 213, 1));
+  border-radius: 8px;
+  background: var(--White, rgba(255, 255, 255, 1));
+}
+
+.bt-call {
+  border-radius: 8px;
+  background: var(--Green, rgba(0, 166, 62, 1));
+}
