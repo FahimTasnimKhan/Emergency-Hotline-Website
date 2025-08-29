@@ -72,14 +72,35 @@
 }
 
 .item-1 {
-  flex: 2;
+  width: 1370px;
+  height: 1140px;
+}
+
+.icon-div {
+  border-radius: 16px;
+  background: rgba(255, 227, 226, 1);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-div-police {
+  border-radius: 16px;
+  background: rgba(223, 239, 255, 1);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-2 {
-  flex: 1;
   /* History */
-
-  height: 1140px;
+  width: 400px;
+  margin-right: 60px;
+  height: 1185px;
   /* Auto layout */
   display: flex;
   flex-direction: column;
