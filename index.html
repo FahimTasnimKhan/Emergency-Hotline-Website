@@ -47,13 +47,13 @@
           <div
             class="btn-color flex justify-center items-center p-3 gap-2.5 rounded-[50px] w-[123px] h-[52px]"
           >
-            <span class="inter-normal">0</span>
+            <span class="inter-normal" id="heart-counter">0</span>
             <img src="./assets/heart.png" alt="" class="w-[30px] h-[30px]" />
           </div>
           <div
             class="btn-color flex justify-center items-center p-3 gap-2.5 rounded-[50px] w-[123px] h-[52px]"
           >
-            <span class="inter-normal">100</span>
+            <span class="inter-normal" id="coins">100</span>
             <img src="./assets/coin.png" alt="" class="w-[30px] h-[30px]" />
           </div>
           <div
@@ -92,11 +92,15 @@
               <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">National Emergency Number</h1>
-              <p class="text-[18px] text-gray-500">National Emergency</p>
+              <h1 class="text-[24px] font-bold">National Emergency Number</h1>
+              <p class="text-[18px] text-gray-500" id="card1-name">
+                National Emergency Service
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">999</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card1-number">
+                999
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -112,6 +116,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card-1-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -127,14 +132,21 @@
                   class="w-[35px] h-[35px]"
                 />
               </div>
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">Police Helpline Number</h1>
-              <p class="text-[18px] text-gray-500">Police</p>
+              <h1 class="text-[23px] font-bold">Police Helpline Number</h1>
+              <p class="text-[18px] text-gray-500" id="card2-name">
+                Police Service
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">999</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card2-number">
+                999
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -150,6 +162,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card2-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -157,7 +170,7 @@
             </div>
           </div>
           <div class="flex flex-col p-8 justify-start items-start card">
-            <div class="flex justify-between items-center w-full mb-[16px]">
+            <div class="flex justify-between items-center w-full mb-[6px]">
               <div class="icon-div">
                 <img
                   src="./assets/fire-service.png"
@@ -165,14 +178,21 @@
                   class="w-[35px] h-[35px]"
                 />
               </div>
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">Fire Service Number</h1>
-              <p class="text-[18px] text-gray-500">Fire Service</p>
+              <h1 class="text-[27px] font-bold">Fire Service Number</h1>
+              <p class="text-[18px] text-gray-500" id="card3-name">
+                Fire Service
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">999</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card3-number">
+                999
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -188,6 +208,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card3-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -203,18 +224,25 @@
                   class="w-[35px] h-[35px]"
                 />
               </div>
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">Ambulance Service</h1>
-              <p class="text-[18px] text-gray-500">Ambulance</p>
+              <h1 class="text-[20px] font-bold">Ambulance</h1>
+              <p class="text-[18px] text-gray-500" id="card4-name">
+                Ambulance Service
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">1994-999999</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card4-number">
+                1994-999999
+              </h1>
               <div
-                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
+                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight w-[80px]"
               >
-                <p>Health</p>
+                <p>Fire</p>
               </div>
             </div>
             <div class="mt-[24px] flex gap-2 justify-start items-center w-full">
@@ -226,6 +254,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card4-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -242,14 +271,21 @@
                 />
               </div>
 
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
               <h1 class="text-[20px] font-bold">Women & Child Helpline</h1>
-              <p class="text-[18px] text-gray-500">Women & Child Helpline</p>
+              <p class="text-[18px] text-gray-500" id="card5-name">
+                Women & Child Helpline
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">109</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card5-number">
+                109
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -265,6 +301,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card5-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -281,14 +318,21 @@
                 />
               </div>
 
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
               <h1 class="text-[20px] font-bold">Anti-Corruption Helpline</h1>
-              <p class="text-[18px] text-gray-500">Anti-Corruption</p>
+              <p class="text-[18px] text-gray-500" id="card6-name">
+                Anti-Corruption Service
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">106</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card6-number">
+                106
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -304,6 +348,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card6-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -320,16 +365,23 @@
                 />
               </div>
 
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">Electricity Helpline</h1>
-              <p class="text-[18px] text-gray-500">Electricity Outage</p>
+              <h1 class="text-[20px] font-bold">Electricity Outage</h1>
+              <p class="text-[18px] text-gray-500" id="card7-name">
+                Electricity Outage Helpline
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">16216</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card7-number">
+                16216
+              </h1>
               <div
-                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
+                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight w-[100px]"
               >
                 <p>Electricity</p>
               </div>
@@ -343,6 +395,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card7-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -352,21 +405,22 @@
           <div class="flex flex-col p-8 justify-start items-start card">
             <div class="flex justify-between items-center w-full mb-[16px]">
               <div class="icon-div">
-                <img
-                  src="./assets/emergency.png"
-                  alt=""
-                  class="w-[35px] h-[35px]"
-                />
+                <img src="./assets/brac.png" alt="" class="w-[35px] h-[35px]" />
               </div>
 
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
               <h1 class="text-[20px] font-bold">Brac Helpline</h1>
-              <p class="text-[18px] text-gray-500">Brac</p>
+              <p class="text-[18px] text-gray-500" id="card8-name">Brac</p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">16445</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card8-number">
+                16445
+              </h1>
               <div
                 class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
               >
@@ -382,6 +436,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card8-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -392,22 +447,29 @@
             <div class="flex justify-between items-center w-full mb-[16px]">
               <div class="icon-div">
                 <img
-                  src="./assets/emergency.png"
+                  src="./assets/Bangladesh-Railway.png"
                   alt=""
                   class="w-[35px] h-[35px]"
                 />
               </div>
 
-              <i class="fa-regular fa-heart text-[32px] text-gray-600"></i>
+              <i
+                class="fa-regular fa-heart text-[32px] text-gray-600"
+                id="heart"
+              ></i>
             </div>
             <div class="mb-[24px]">
-              <h1 class="text-[20px] font-bold">Bangladesh Railway Helpline</h1>
-              <p class="text-[18px] text-gray-500">Bangladesh Railway</p>
+              <h1 class="text-[18px] font-bold">Bangladesh Railway</h1>
+              <p class="text-[18px] text-gray-500" id="card9-name">
+                Bangladesh Railway Helpline
+              </p>
             </div>
             <div>
-              <h1 class="text-[32px] font-bold text-left">163</h1>
+              <h1 class="text-[32px] font-bold text-left" id="card9-number">
+                163
+              </h1>
               <div
-                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight"
+                class="flex justify-center items-center p-[6px 16px 6px 16px] rounded-[9999px] highlight w-[100px]"
               >
                 <p>Travel</p>
               </div>
@@ -421,6 +483,7 @@
               </button>
               <button
                 class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl !p-[16px] flex justify-center items-center gap-[4px] bt-call !w-full"
+                id="card9-call"
               >
                 <i class="fa-solid fa-phone" style="color: #ffffff"></i>
                 <p class="text-white font-normal text-[16px]">Call</p>
@@ -428,7 +491,21 @@
             </div>
           </div>
         </div>
-        <div class="item-2"></div>
+        <div class="item-2">
+          <div
+            class="w-[352px] h-[52px] flex justify-between items-center my-[24px]"
+          >
+            <div class="flex gap-2 items-center">
+              <i class="fa-solid fa-clock"></i>
+              <p class="text-[20px] font-medium">Call History</p>
+            </div>
+            <div
+              class="flex justify-center items-center text-center px-[36px] py-[12px] rounded-[50px] bg-[#00a63e]"
+            >
+              <p class="text-white text-[16px] font-[600]">Clear</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <script src="./JS/main.js"></script>

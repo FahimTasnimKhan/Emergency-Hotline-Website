@@ -72,8 +72,9 @@
 }
 
 .item-1 {
-  width: 1370px;
-  height: 1140px;
+  flex: 1;
+  min-width: 0;
+  height: auto;
 }
 
 .icon-div {
@@ -100,7 +101,8 @@
   /* History */
   width: 400px;
   margin-right: 60px;
-  height: 1185px;
+  height: auto;
+  /* don’t let it shrink */
   /* Auto layout */
   display: flex;
   flex-direction: column;
